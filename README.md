@@ -12,7 +12,7 @@ Initializing Repository
 
 Repo initialization:
 
-    $ repo init -u https://github.com/BaikalOS/manifest.git -b r11.1
+    $ repo init --depth=1 -u https://github.com/Rint02/manifest.git -b r11.1
 
 
 sync repo :
