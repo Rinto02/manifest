@@ -29,15 +29,15 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="Baikalos/build_soong" groups="pdk,tradefed" remote="baikalos" >
+  <project path="build/soong" name="BaikalOS-Archive/build_soong" groups="pdk,tradefed" remote="baikalos" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
 
-  <project path="external/selinux" name="Baikalos/android_external_selinux" groups="pdk" remote="baikalos" />
-  <project path="system/core" name="Baikalos/system_core" groups="pdk" remote="baikalos" />
-  <project path="external/toybox" name="Baikalos/android_external_toybox" groups="pdk" remote="baikalos" />
+  <project path="external/selinux" name="BaikalOS-Archive/android_external_selinux" groups="pdk" remote="baikalos" />
+  <project path="system/core" name="BaikalOS-Archive/system_core" groups="pdk" remote="baikalos" />
+  <project path="external/toybox" name="BaikalOS-Archive/android_external_toybox" groups="pdk" remote="baikalos" />
 
 
   <project path="frameworks/base" name="BaikalOS-Archive/android_frameworks_base" remote="baikalos" />
